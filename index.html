@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashim Adhikari's Tech Blog</title>
+    <link rel="shortcut icon" href="./image/profile-pic.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2d3e50;
+            --accent: #00b894;
+            --bg: #f4f6fb;
+            --white: #fff;
+            --shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: var(--bg);
+            color: var(--primary);
+        }
+        header {
+            background: var(--primary);
+            color: var(--white);
+            padding: 2rem 1rem 1.5rem 1rem;
+            text-align: center;
+            box-shadow: var(--shadow);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.2rem;
+            color: #dfe6e9;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: var(--accent);
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: 700;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #00cec9;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .post {
+            background: var(--white);
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+            padding: 2rem;
+            transition: transform 0.2s;
+        }
+        .post:hover {
+            transform: translateY(-4px) scale(1.01);
+        }
+        .post h2 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+        .post .meta {
+            font-size: 0.9rem;
+            color: #636e72;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background: var(--primary);
+            color: var(--white);
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            font-size: 1rem;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            main {
+                padding: 0.5rem;
+            }
+            .post {
+                padding: 1rem;
+            }
+            .post img {
+                max-width: 100%;
+                height: auto;
+            }
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+            nav {
+                margin-top: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ashim Adhikari's Tech Blog</h1>
+        <p>Exploring Technology & Innovation in Hardware, Software, and Network System Administration</p>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="#hardware">Hardware</a>
+            <a href="#software">Software</a>
+            <a href="#network">Network</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+    <main>
+        <section class="post" id="hardware">
+            <h2>Latest Trends in Hardware Innovation</h2>
+            <div class="meta">Posted on June 2024 | Category: Hardware</div>
+            <p>
+            Discover how advancements in processors, storage, and IoT devices are shaping the future of computing. From energy-efficient chips to modular hardware, innovation is driving performance and sustainability.
+            </p>
+            <ul>
+            <li><strong>Quantum Computing:</strong> The next leap in processing power, enabling complex computations at unprecedented speeds.</li>
+            <li><strong>Edge Devices:</strong> Bringing computation closer to data sources for faster and more secure processing.</li>
+            <li><strong>Green Hardware:</strong> Focus on eco-friendly materials and energy-saving designs.</li>
+            <li><strong>NVMe Storage:</strong> Ultra-fast storage solutions are revolutionizing data access and server performance.</li>
+            <li><strong>ARM-based Servers:</strong> Power-efficient alternatives to traditional x86 architectures, gaining traction in data centers.</li>
+            </ul>
+            <p>
+            The hardware landscape is also seeing a surge in custom silicon, such as Apple's M-series chips and Google's TPUs, tailored for specific workloads like AI and machine learning. Modular laptops and repairable devices are gaining popularity, promoting sustainability and reducing electronic waste. 
+            </p>
+            <p>
+            <strong>Emerging Topics:</strong>
+            <ul>
+            <li>Wearable technology integrating health monitoring and augmented reality.</li>
+            <li>Advancements in battery technology for longer-lasting mobile devices.</li>
+            <li>3D printing for rapid prototyping and manufacturing of hardware components.</li>
+            </ul>
+            </p>
+        </section>
+        <section class="post" id="software">
+            <h2>Modern Software Development Practices</h2>
+            <div class="meta">Posted on June 2024 | Category: Software</div>
+            <p>
+                Explore agile methodologies, DevOps, and the rise of AI-driven applications. Learn how software is evolving to meet the demands of automation, security, and scalability in today's digital world.
+            </p>
+            <ul>
+                <li><strong>Microservices Architecture:</strong> Building scalable and maintainable applications.</li>
+                <li><strong>Continuous Integration/Continuous Deployment (CI/CD):</strong> Automating the software release process.</li>
+                <li><strong>AI & Machine Learning:</strong> Integrating intelligent features into everyday applications.</li>
+                <li><strong>Containerization:</strong> Using Docker and Kubernetes for efficient deployment and orchestration.</li>
+                <li><strong>Low-Code/No-Code Platforms:</strong> Empowering non-developers to build applications rapidly.</li>
+            </ul>
+            <p>
+                Security is now a core part of the software lifecycle, with practices like DevSecOps ensuring vulnerabilities are addressed early. Open-source software continues to drive innovation, with communities collaborating on frameworks, libraries, and tools.
+            </p>
+            <p>
+                <strong>Emerging Topics:</strong>
+                <ul>
+                    <li>Serverless computing for cost-effective and scalable backend solutions.</li>
+                    <li>Progressive Web Apps (PWAs) bridging the gap between web and native apps.</li>
+                    <li>Automated testing and code quality tools for robust software delivery.</li>
+                </ul>
+            </p>
+        </section>
+        <section class="post" id="network">
+            <h2>Network System Administration in the Cloud Era</h2>
+            <div class="meta">Posted on June 2024 | Category: Network</div>
+            <p>
+                Uncover best practices for managing hybrid and cloud networks, securing infrastructure, and automating routine tasks. Stay ahead with insights on SDN, virtualization, and network monitoring tools.
+            </p>
+            <ul>
+                <li><strong>Zero Trust Security:</strong> A new approach to securing networks in a distributed environment.</li>
+                <li><strong>Network Automation:</strong> Using scripts and tools to reduce manual configuration.</li>
+                <li><strong>Cloud Networking:</strong> Managing connectivity across multiple cloud providers.</li>
+                <li><strong>SD-WAN:</strong> Software-defined WANs for flexible, reliable, and secure branch connectivity.</li>
+                <li><strong>IPv6 Adoption:</strong> Preparing for the future of internet addressing and connectivity.</li>
+            </ul>
+            <p>
+                Network administrators are leveraging tools like Ansible, Terraform, and Python scripting to automate configuration and deployment. Monitoring solutions such as Prometheus and Grafana provide real-time insights into network health and performance.
+            </p>
+            <p>
+                <strong>Emerging Topics:</strong>
+                <ul>
+                    <li>5G and Wi-Fi 6 for faster, more reliable wireless networking.</li>
+                    <li>Network Function Virtualization (NFV) for flexible service deployment.</li>
+                    <li>Incident response and disaster recovery planning in hybrid environments.</li>
+                </ul>
+            </p>
+        </section>
+        <section class="post">
+            <h2>Getting Started with Home Labs</h2>
+            <div class="meta">Posted on June 2024 | Category: DIY</div>
+            <p>
+                Building a home lab is a great way to experiment with new technologies. Start with a basic server, set up virtualization, and try out different operating systems and network configurations.
+            </p>
+            <ul>
+                <li>Choose affordable hardware like Raspberry Pi or refurbished desktops.</li>
+                <li>Install hypervisors such as Proxmox or VMware ESXi.</li>
+                <li>Practice deploying and managing virtual machines and containers.</li>
+                <li>Experiment with network segmentation and VLANs for security.</li>
+                <li>Test backup and restore strategies to ensure data safety.</li>
+            </ul>
+            <p>
+                Home labs are perfect for learning about automation tools, setting up your own cloud with Nextcloud, or running a media server. Document your setup and share your experiences with the community!
+            </p>
+            <p>
+                <strong>Pro Tips:</strong>
+                <ul>
+                    <li>Use open-source firewall solutions like pfSense for network security.</li>
+                    <li>Try out Infrastructure as Code (IaC) tools to automate your lab environment.</li>
+                    <li>Join online forums and communities to exchange ideas and troubleshoot issues.</li>
+                </ul>
+            </p>
+        </section>
+        <section class="post">
+            <h2>Cybersecurity Essentials for System Administrators</h2>
+            <div class="meta">Posted on June 2024 | Category: Security</div>
+            <p>
+                Security is a top priority for any system administrator. Learn about firewalls, intrusion detection, and regular patch management to keep your systems safe from threats.
+            </p>
+            <ul>
+                <li>Implement multi-factor authentication (MFA) for all users.</li>
+                <li>Regularly update and patch all software and firmware.</li>
+                <li>Monitor logs and set up alerts for suspicious activities.</li>
+                <li>Educate users about phishing and social engineering attacks.</li>
+                <li>Use encryption for sensitive data at rest and in transit.</li>
+            </ul>
+            <p>
+                Stay updated with the latest vulnerabilities and subscribe to security advisories. Participate in security drills and incident response simulations to prepare for real-world threats.
+            </p>
+            <p>
+                <strong>Emerging Topics:</strong>
+                <ul>
+                    <li>Zero-day vulnerability management and response.</li>
+                    <li>Implementing least privilege and role-based access control (RBAC).</li>
+                    <li>Security Information and Event Management (SIEM) solutions for proactive defense.</li>
+                </ul>
+            </p>
+        </section>
+        <section class="post" id="about">
+            <h2>About Ashim Adhikari</h2>
+            <div class="meta">Tech Enthusiast & Blogger</div>
+            <p>
+                Ashim Adhikari is passionate about technology, innovation, and sharing knowledge in hardware, software, and network system administration. With years of experience in IT, Ashim enjoys exploring new trends, building home labs, and helping others learn through practical guides and tutorials.
+            </p>
+            <p>
+                This blog is dedicated to providing insights, tips, and hands-on advice for tech enthusiasts, students, and professionals. Whether you're interested in the latest hardware, modern software practices, or mastering network administration, you'll find valuable content here.
+            </p>
+            <p>
+                <strong>Connect with me:</strong>
+                <ul>
+                    <li>Email: <a href="mailto:aseemadkary.official@gmail.com">Mail</a></li>
+                    <li>GitHub: <a href="https://github.com/aseemadkary" target="_blank">Github</a></li>
+                    <li>Twitter: <a href="https://x.com/AdkaryAseem" target="_blank">Twitter</a></li>
+                </ul>
+            </p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Ashim Adhikari. All rights reserved.
+    </footer>
+</body>
+</html>
